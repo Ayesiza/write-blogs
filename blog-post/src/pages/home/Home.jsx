@@ -1,10 +1,10 @@
 import { useLocation } from "react-router";
 import Header from "../../components/header/Header";
 import Posts from "../../components/posts/Posts";
-import Sidebar from "../../components/sidebar/Sidebar";
-import "./homepage.css";
+import Sidebar from "../../components/sidebar/SideBar";
+import "./home.css";
 
-export default function Homepage() {
+export default function Home() {
     const location = useLocation();
     console.log(location);
     return (
